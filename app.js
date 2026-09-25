@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3006;
 const io = new Server(server, {
     cors: {
         origin: [
-            "https://jogo-da-velha.fun/",
+            "https://jogo-da-velha.fun",
         ],
     },
 });
