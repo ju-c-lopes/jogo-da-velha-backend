@@ -1,0 +1,13 @@
+{
+  "name": "tic-tac-toe-server",
+  "description": "Servidor Backend para Jogo da Velha",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.3"
+  }
+}
